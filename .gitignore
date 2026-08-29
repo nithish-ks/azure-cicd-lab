@@ -1,0 +1,21 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.tfstate.lock.info
+crash.log
+
+# Terraform variable files
+*.tfvars
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment/secrets
+.env
+.env.*
+
+# VS Code
+.vscode/
